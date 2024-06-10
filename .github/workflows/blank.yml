@@ -20,7 +20,7 @@ jobs:
     steps:
       - name : Print Hello3
         run : |
-        echo " HELLOoooooo "
-        echo " loooooooo "
+            echo " HELLOoooooo "
+            echo " loooooooo "
       - name : Print Goodbye3
         run : echo " BYE "
