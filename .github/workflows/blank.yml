@@ -19,8 +19,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name : Print Hello3
-        run : |
-            echo " HELLOoooooo "
-            echo " loooooooo "
+        run : echo "Heeloo"
       - name : Print Goodbye3
         run : echo " BYE "
