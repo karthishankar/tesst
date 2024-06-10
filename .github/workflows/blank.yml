@@ -8,3 +8,19 @@ jobs:
         run : echo " HELLO "
       - name : Print Goodbye
         run : echo " BYE "
+  Job_2:
+    runs-on: ubuntu-latest
+    steps:
+      - name : Print Hello2
+        run : echo " HELLO "
+      - name : Print Goodbye2
+        run : echo " BYE "
+  Job_3:
+    runs-on: ubuntu-latest
+    steps:
+      - name : Print Hello3
+        run : |
+        echo " HELLOoooooo "
+        echo " loooooooo "
+      - name : Print Goodbye3
+        run : echo " BYE "
